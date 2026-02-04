@@ -17,7 +17,7 @@ const SecondSection = () => {
         "https://us-west-2.aws.data.mongodb-api.com/app/yolkify-mkxti/endpoint/users/count",
         {
           // other data to be sent in the request
-        }
+        },
       );
       setCount(response.data);
     } catch (error) {}
@@ -28,7 +28,7 @@ const SecondSection = () => {
     <div className="screen-height">
       <div className="pg2-header-holder">
         <h2>
-          Why are <text className="current-count">{count}</text> people using
+          Why are <text className="current-count">2118</text> people using
           Yolkify?
         </h2>
       </div>
